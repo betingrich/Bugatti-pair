@@ -93,11 +93,12 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` })
              await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `⚠️Do not share this file with anybody⚠️\n
 ┌─❖
-│ Ohayo 😽
+│ Dear Firenite 🔥
 └┬❖  
-┌┤✑  Thanks for using X-PairCode
+┌┤✑  Thanks for pairing ur WhatsApp bot to fire md
+   follow our channel for update 
 │└────────────┈ ⳹        
-│©2020-2023 XeonBotInc 
+│https://whatsapp.com/channel/0029VajYjMJJf05aRQXKx82W
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
